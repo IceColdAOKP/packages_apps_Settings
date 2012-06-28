@@ -1580,4 +1580,104 @@
     <string name="backup_pw_cancel_button_text" msgid="8845630125391744615">"Cancelar"</string>
     <string name="percentage" msgid="5866131581207788624">"<xliff:g id="NUMBER">%d</xliff:g>%%"</string>
     <string name="additional_system_update_settings_list_item_title" msgid="214987609894661992">"Atualizações adicionais do sistema"</string>
+
+    <!-- Profiles settings #CM -->
+    <string name="profiles_settings_title">Perfis</string>
+    <string name="profiles_general_title">Geral</string>
+    <string name="profiles_add">Adicionar</string>
+    <string name="profile_menu_delete">Remover</string>
+    <string name="profile_settings_title">Perfil</string>
+
+    <!-- Add Profile -->
+    <string name="add_profile_dialog_title">Criar novo perfil</string>
+    <string name="profile_name_title">Nome do perfil</string>
+    <string name="profile_profile_name_prompt">Entre um nome para o novo perfil</string>
+    <string name="menu_new_profile">Novo perfil</string>
+    <string name="menu_new_profile_summary">Adicionar e configurar um novo perfil</string>
+    <string name="new_profile_name">&lt;novo perfil&gt;</string>
+
+    <!-- Rename Profile Dialog  -->
+    <string name="duplicate_profile_name">Nome de perfil duplicado!</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">Reconfigurar</string>
+    <string name="profile_reset_message">Você quer remover todos os perfis e grupos de aplicação criados e restaura-los para o padrão ?</string>
+
+    <!-- Delete confimation messages -->
+    <string name="profile_delete_confirm">Tem certeza que deseja remover este perfil ?</string>
+    <string name="profile_app_delete_confirm">Tem certeza que deseja remover esta aplicação ?</string>
+    <string name="profile_cannot_delete">Você não pode remover o perfil ativo</string>
+
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="profile_connectionoverrides_title">Substituição de conexão</string>
+    <string name="profile_volumeoverrides_title">Substituição de volume</string>
+    <string name="connection_state_disabled">Desabilitar</string>
+    <string name="connection_state_enabled">Habilitar</string>
+    <string name="volume_override_summary">Definir para</string>
+
+    <!-- Menu item for managing profiles -->
+    <string name="profile_profiles_manage">Perfis</string>
+    <string name="profile_profile_manage">Gerenciar perfil</string>
+    <string name="profile_applist_manage">Lista de aplicações</string>
+    <string name="profile_appgroups_manage">Gerenciar grupos de aplicações</string>
+    <string name="profile_appgroup_manage">Perfil</string>
+
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <string name="profile_settings">Configuração do perfil</string>
+    <string name="profile_name">Nome</string>
+
+    <!-- Profile Settings sound modes labels -->
+    <string name="sound_mode">Modo de notificação</string>
+    <string name="ringer_mode">Modo de toque</string>
+    <string name="lights_mode">Modo de luzes</string>
+    <string name="vibrate_mode">Modo de vibração</string>
+    <string name="choose_soundtone">Selecione o som de notificação</string>
+    <string name="choose_ringtone">Selecione o toque do telefone</string>
+
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <string name="soundtone_title">Toque de notificação</string>
+    <string name="soundtone_summary">""</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroups_title">Grupos de aplicações</string>
+    <string name="profile_applist_title">Aplicações</string>
+    <string name="profile_new_appgroup">Novo grupo de aplicações</string>
+    <string name="profile_delete_appgroup">Remover este grupo de aplicações</string>
+    <string name="profile_appgroup_name_prompt">Entre um nome para o novo grupo de aplicações</string>
+    <string name="profile_add_app">Adicionar aplicação</string>
+    <string name="profile_delete_app">Remover aplicação</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">Selecionar aplicação</string>
+    <string name="profile_settings_header">Configurações do perfil</string>
+
+    <!-- Profiles - system settings -->
+    <string name="profile_system_settings_title">Configurações de sistema</string>
+    <string name="profile_lockmode_title">Modo de bloqueio de tela</string>
+    <string name="profile_lockmode_default">Padrão</string>
+    <string name="profile_lockmode_insecure">Inseguro</string>
+    <string name="profile_lockmode_disabled">Desabilitado</string>
+    <string name="profile_lockmode_default_summary">Usar padrão do sistema</string>
+    <string name="profile_lockmode_insecure_summary">Usar bloqueio inseguro</string>
+    <string name="profile_lockmode_disabled_summary">Bloqueio de tela está desabilitado</string>
+
+    <string name="profile_disable_screen_lock_summary">Desabilitar bloqueio de tela enquanto este perfil estiver ativo</string>
+
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="possibleButtons">Botões possíveis</string>
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">Ponto de acesso portátil</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">Dados móveis</string>
+    <string name="toggleSync">Sincronia de dados</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleSound">Toque</string>
+    <string name="toggleBrightness">Brilho</string>
+    <string name="toggleAutoRotate">Orientação</string>
+    <string name="toggleScreenTimeout">Tempo limite da tela</string>
+    <string name="toggleAirplane">Modo avião</string>
+    <string name="toggleFlashlight">Lanterna LED</string>
+    <string name="toggleLockScreen">Bloqueio de tela</string>
+    <string name="toggleWimax">WiMAX</string>
 </resources>

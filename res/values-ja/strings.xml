@@ -1582,4 +1582,104 @@
     <string name="backup_pw_cancel_button_text" msgid="8845630125391744615">"キャンセル"</string>
     <string name="percentage" msgid="5866131581207788624">"<xliff:g id="NUMBER">%d</xliff:g>%%"</string>
     <string name="additional_system_update_settings_list_item_title" msgid="214987609894661992">"その他のシステムアップデート"</string>
+
+    
+    <!-- Profiles settings #CM -->
+    <string name="profiles_settings_title">プロファイル</string>
+    <string name="profiles_general_title">一般</string>
+    <string name="profiles_add">追加</string>
+    <string name="profile_menu_delete">削除</string>
+    <string name="profile_settings_title">プロファイル</string>
+
+    <!-- Add Profile -->
+    <string name="add_profile_dialog_title">新規プロファイル作成</string>
+    <string name="profile_name_title">プロファイルの名前</string>
+    <string name="profile_profile_name_prompt">新しいプロファイルの名前を入力してください</string>
+    <string name="menu_new_profile">新規プロファイル</string>
+    <string name="menu_new_profile_summary">新しいプロファイルを追加して編集する</string>
+    <string name="new_profile_name">&lt;新規プロファイル&gt;</string>
+
+    <!-- Rename Profile Dialog  -->
+    <string name="duplicate_profile_name">プロファイル名が重複しています!</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">リセット</string>
+    <string name="profile_reset_message">全てのプロファイルとアプリグループを削除してそれらを初期設定に戻しますか?</string>
+
+    <!-- Delete confimation messages -->
+    <string name="profile_delete_confirm">このプロファイルを削除してもよろしいですか?</string>
+    <string name="profile_app_delete_confirm">このアプリを削除してもよろしいですか?</string>
+    <string name="profile_cannot_delete">アクティブなプロファイルを削除することはできません</string>
+
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="profile_connectionoverrides_title">接続のオーバーライド</string>
+    <string name="profile_volumeoverrides_title">音量のオーバーライド</string>
+    <string name="connection_state_disabled">無効</string>
+    <string name="connection_state_enabled">有効</string>
+    <string name="volume_override_summary">設定は </string>
+
+    <!-- Menu item for managing profiles -->
+    <string name="profile_profiles_manage">プロファイル</string>
+    <string name="profile_profile_manage">プロファイルの管理</string>
+    <string name="profile_applist_manage">アプリケーションリスト</string>
+    <string name="profile_appgroups_manage">アプリグループの管理</string>
+    <string name="profile_appgroup_manage">プロファイル</string>
+
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <string name="profile_settings">プロファイル設定</string>
+    <string name="profile_name">名前</string>
+
+    <!-- Profile Settings sound modes labels -->
+    <string name="sound_mode">通知モード</string>
+    <string name="ringer_mode">着信音モード</string>
+    <string name="lights_mode">ライトモード</string>
+    <string name="vibrate_mode">振動モード</string>
+    <string name="choose_soundtone">通知音を選択</string>
+    <string name="choose_ringtone">着信音を選択</string>
+
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <string name="soundtone_title">通知音</string>
+    <string name="soundtone_summary">""</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroups_title">アプリグループ</string>
+    <string name="profile_applist_title">アプリケーション</string>
+    <string name="profile_new_appgroup">新規アプリグループ</string>
+    <string name="profile_delete_appgroup">このグループを削除する</string>
+    <string name="profile_appgroup_name_prompt">アプリグループの名前を入力してください</string>
+    <string name="profile_add_app">アプリを追加</string>
+    <string name="profile_delete_app">アプリを削除</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">アプリ選択</string>
+    <string name="profile_settings_header">プロファイル設定</string>
+
+    <!-- Profiles - system settings -->
+    <string name="profile_system_settings_title">システム設定</string>
+    <string name="profile_lockmode_title">画面ロックモード</string>
+    <string name="profile_lockmode_default">デフォルト</string>
+    <string name="profile_lockmode_insecure">インセキュア</string>
+    <string name="profile_lockmode_disabled">無効</string>
+    <string name="profile_lockmode_default_summary">システムデフォルトの設定</string>
+    <string name="profile_lockmode_insecure_summary">セキュリティなしのロック</string>
+    <string name="profile_lockmode_disabled_summary">ロック画面は無効</string>
+    <string name="profile_disable_screen_lock_summary">このプロファイルを使用している間はロック画面のセキュリティを無効にする</string>
+
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="possibleButtons">可能なボタン</string>
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">ポータブルアクセスポイント</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">データ通信</string>
+    <string name="toggleSync">データ同期</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleSound">着信モード</string>
+    <string name="toggleBrightness">明るさ</string>
+    <string name="toggleAutoRotate">回転</string>
+    <string name="toggleScreenTimeout">スクリーンタイムアウト</string>
+    <string name="toggleAirplane">機内モード</string>
+    <string name="toggleFlashlight">フラッシュライト</string>
+    <string name="toggleLockScreen">画面のロック</string>
+    <string name="toggleWimax">WiMAX</string>
 </resources>
