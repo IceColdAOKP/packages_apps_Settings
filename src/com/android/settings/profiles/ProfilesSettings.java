@@ -96,10 +96,6 @@ public class ProfilesSettings extends Fragment {
     public void onResume() {
         super.onResume();
 
-        // If running on a phone, remove padding around tabs
-        if (!Utils.isScreenLarge()) {
-            mContainer.setPadding(0, 0, 0, 0);
-        }
     }
 
     

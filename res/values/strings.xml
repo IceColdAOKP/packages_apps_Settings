@@ -1606,7 +1606,6 @@
     <string name="config_list_label" translatable="false">Configured networks</string>
 
     <!-- Button label for generic cancel action -->
-    <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
 
     <!-- Sound and alerts settings -->
@@ -4040,4 +4039,5 @@ found in the list of installed apps.</string>
     <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
     <string name="profile_unknown_nfc_tag">Unknown profile</string>
     <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
+    <string name="profile_select">Select profile</string>
 </resources>

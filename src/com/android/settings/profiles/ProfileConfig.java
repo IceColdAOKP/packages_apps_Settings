@@ -29,7 +29,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.AudioManager;
-import android.net.wimax.WimaxHelper;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
 import android.preference.ListPreference;
@@ -90,9 +89,6 @@ public class ProfileConfig extends SettingsPreferenceFragment
         mConnections.add(new ConnectionItem(ConnectionSettings.PROFILE_CONNECTION_WIFI, getString(R.string.toggleWifi)));
         mConnections.add(new ConnectionItem(ConnectionSettings.PROFILE_CONNECTION_SYNC, getString(R.string.toggleSync)));
         mConnections.add(new ConnectionItem(ConnectionSettings.PROFILE_CONNECTION_WIFIAP, getString(R.string.toggleWifiAp)));
-        if (WimaxHelper.isWimaxSupported(getActivity())) {
-            mConnections.add(new ConnectionItem(ConnectionSettings.PROFILE_CONNECTION_WIMAX, getString(R.string.toggleWimax)));
-        }
 
         addPreferencesFromResource(R.xml.profile_config);
 
