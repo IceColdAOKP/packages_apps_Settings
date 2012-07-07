@@ -1359,6 +1359,8 @@
 
         <activity android:name=".profiles.ProfileGroupConfig" />
 
+        <activity android:name=".ApnEditor" />
+
         <activity android:name=".profiles.NFCProfileWriter" />
 
         <activity android:name=".profiles.NFCProfileSelect" />
