@@ -1630,4 +1630,8 @@
     <string name="mod_version">Mod Version</string>
     <string name="link_volume_ringtones">Link volumes</string>
     <string name="link_volume_mutes">Link mute states</string>
+
+    <!-- Advanced tethering settings -->
+    <string name="tethering_advanced_text">Erweitert</string>
+    <string name="tethering_lease_time_text">DHCP-Lease-Gültigkeit</string>
 </resources>
